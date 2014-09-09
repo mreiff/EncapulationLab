@@ -29,7 +29,7 @@ public class Employee {
      * Start the employing process.
      * @param cudeId Cubical Id 
      */
-    public void startEmployProcess(String cudeId){
+    public void completeOrientation(String cudeId){
         meetWithHrForBenefitAndSalryInfo();
         meetDepartmentStaff();
         reviewDeptPolicies();

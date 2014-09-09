@@ -24,7 +24,7 @@ public class Startup {
         employee.setLastName("Piper");
         employee.setSsn("333-1234");
         
-        employee.startEmployProcess("666");
+        employee.completeOrientation("666");
 
         System.out.println("The employee's status is: " + employee.getStatus());
         
